@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+.wrapper {
+    max-width: 750px;
+    height: 535px;
+    background-color: rgb(50, 50, 58);
+    margin: 10px;
+}
+.header {
+    color: #fff;
+    text-align: center;
+    padding: 28px;
+}
+.title {
+    font-size: 30px;
+    font-weight: 100;
+}
+.header-text {
+    width: 400px;
+    margin: 15px 0 -6px;
+    position: relative;
+    left: 156px;
+    font-size: 12px;
+}
+img {
+    max-width: 100%;
+}
+figure {
+    max-width: 100%;
+}
+.cards {
+    display: flex; 
+    margin: 0 30px;   
+} 
+.card {
+    background-color: #fff;
+    width: 230px;
+    height: 370px;
+    margin: 0 10px;
+} 
+.card-heared {
+    height: 55px;
+    background-color: rgba(50, 53, 63, 0.781);
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 15px;
+}
+.card-heareds {
+    height: 55px;
+    background-color: red;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 15px;
+}
+.card-text {
+    display: flex;
+    margin: 15px;
+    padding: 0 25px;
+}
+span {
+    font-size: 12px;
+    margin: 0 4px;
+}
+p {
+    font-size: 12px;
+    font-weight: bold;
+}
+ul {
+    text-decoration: none;
+    font-size: 12px;
+    margin: 0 45px;
+}
+button {
+    font-size: 9px;
+    margin: 15px 50px;
+    padding: 8px 20px;
+    border: none;
+    background-color: red;
+    color: #fff;
+}
+
